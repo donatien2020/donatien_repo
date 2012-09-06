@@ -1,15 +1,7 @@
 package controllers;
 
-import java.util.List;
-import java.util.Set;
-
-
-
-import models.User;
-
-import play.data.validation.MaxSize;
-import play.data.validation.Required;
-
+import play.mvc.With;
+@With(Secure.class)
 public class Posts extends CRUD {
 	
 }

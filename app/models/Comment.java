@@ -26,4 +26,11 @@ public class Comment  extends Model {
     @ManyToOne
     @Required
     public Post post; 
+    
+    /**
+     * Allow the creation  of a readable object from the UI
+     */
+    	public String toString() {
+    		return content;
+    	}
 }

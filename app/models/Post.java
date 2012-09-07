@@ -13,6 +13,7 @@ import javax.persistence.OneToMany;
 
 import play.data.validation.MaxSize;
 import play.data.validation.Required;
+
 import play.db.jpa.Model;
 
 @Entity
@@ -37,4 +38,10 @@ public class Post extends Model{
 
 	@ManyToMany(cascade = CascadeType.PERSIST)
 	public Set<Tag> tags;
+	/**
+	 * Allow the creation  of a readable object from the UI
+	 */
+	public String toString() {
+	    return content;
+	}
 }

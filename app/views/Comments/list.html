@@ -8,11 +8,11 @@ title:messages.get('crud.list.title', type.name) /}
 	<div id="crudListSearch">#{crud.search /}</div>
 
 	<div id="crudListTable">
-		<!--   #{crud.table /} adding field parameter to this tag-->
+		<!--   #{crud.table /} adding field parameter to this tag to customize the display as we wish == cool-->
 		<!--  #{crud.table fields:['content', 'post', 'author'] /} -->
-		#{crud.table fields:['content', 'post', 'author']} #{crud.custom
+		#{crud.table fields:['content', 'post', 'author','postedAt']} #{crud.custom
 		'content'} <a href="@{Comments.show(object.id)}">
-			${object.content.length() > 60 ? object.content[0..45] + '…' :
+			${object.content.length() > 35 ? object.content[0..35] + '…' :
 			object.content} </a> #{/crud.custom} #{/crud.table}
 	</div>
 

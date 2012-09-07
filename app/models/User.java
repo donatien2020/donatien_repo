@@ -34,7 +34,9 @@ public class User extends Model {
 	public static User connect(String email, String password) {
 		return User.find("byEmailAndPassword", email, password).first();
 	}
-
+	/**
+	 * Allow the creation  of a readable object from the UI
+	 */
 	public String toString() {
 		return email;
 	}

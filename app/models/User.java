@@ -32,7 +32,7 @@ public class User extends Model {
 	 * Authenticate a User.
 	 */
 	public static User connect(String email, String password) {
-		return User.find("byEmailAndPassword", email, password).first();
+		return find("byEmailAndPassword", email, password).first();
 	}
 	/**
 	 * Allow the creation  of a readable object from the UI

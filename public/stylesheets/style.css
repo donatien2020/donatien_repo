@@ -1,0 +1,655 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color:#00AAFF;
+}
+a{
+text-decoration:none}
+
+img {
+	padding: 3px;
+	
+	border: 1px solid #3f4856;
+	float:left;
+	clear:right;
+}
+span{
+font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 13px;
+	background-color:#FFFFF;
+}
+
+#wrapper{
+	position:absolute;
+	width:83%;
+	left:100px;
+	height:auto;
+	border: 1px;
+	border-color:red;
+	border-style: solid;
+	text-align:left;
+	background-color:#FFFFFF;
+	}
+	
+#header {
+	position:relative;
+	height: 130px;
+	background-color:#006633;
+	background-repeat: no-repeat;
+	background-position: right 0%;
+}
+#leftlogo{
+	
+	margin-right: 0px;
+	float: left;
+	background-color: #fff;
+	background-image: url(../images/mur3.png);
+	background-repeat: no-repeat;
+	background-position: bottom 0%;
+	width:170px;
+    height:100%;
+	
+}
+
+#contentLogo{
+
+	float: left;
+	text-align:center;
+	width:62%;
+	height:44.5%;
+	}
+#rightLogo{
+	
+	float: right;
+	
+	height:44.5%;
+	background-color:#fff;
+	/*
+	background-image: url(../images/rwanflag.jpg);*/
+	background-repeat: no-repeat;
+
+}
+
+#MainMenu {
+
+
+	float: left;
+	min-height: 90%;
+	background-color: #EEEEEF;
+	
+	width:100%;
+	border: 1px;
+	border-color: #c6c6c6;
+	border-style: solid;
+	
+	
+}
+#pp{
+padding: 5px;
+	text-align:left;
+	color: #3f4856;
+	background-color: #FFFFEF;
+	border: 1px;
+	
+	border-color: #c6c6c6;
+	border-style: solid;
+}
+
+#contentDiv p{
+padding: 10px;
+	text-align:left;
+	color: #3f4856;
+}
+#leftDiv{
+float:left;
+	
+	background-color: #fff;
+height: 600px;
+	width:20%;
+	border: 1px;
+	border-color: red;
+	border-style: solid;
+	
+}
+
+#rightDiv{
+	
+	float: right;
+	
+	background-color: #fff;
+	width:19%;
+	border: 1px;
+	border-color: #c6c6c6;
+	border-style: solid;
+	height: 600px;
+	border-color: red;
+	
+
+}
+#flashing{
+
+position:absolute;
+top:120px;
+display: inline;
+	float:left;
+	min-height: 120px;
+	background-color: #fff;
+	width:100%;
+	border: 1px;
+	border-color: #c6c6c6;
+	border-style: solid;
+
+}
+
+
+
+#footer {
+	background-color: #3f4827;
+	display: inline;
+	float: left;
+	width: 768px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+width:100%;
+}
+
+#footer p {
+	color: #f7f7f7;
+}
+/*This for making the menu not apear as listed with a start dot at the biginning of each*/
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 150px;
+	}
+ul li {
+	position: relative;
+	}
+/* the sub menu are uncapsluted inside main menus at the right of the parent menus*/
+li ul {
+	position: absolute;
+	left: 0px;
+	top: 15px;
+	display: none;
+	}
+/* putting the menus inside the background*/
+ul li a {
+	display: block;
+	text-decoration: none;
+	color: #660099;
+	background: #EEEEFF;
+	padding: 2px;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	}
+
+	ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: auto;
+	border-bottom: 1px solid #ccc;
+	}
+li:hover ul { display: block; 
+}
+li:hover ul, li.over ul { 
+	display: block; }
+	
+	/*Making the menu work propery*/
+#MainMenu li {
+
+	display: inline;
+
+}
+
+
+
+#MainMenu a {
+
+	text-transform: uppercase;
+
+	text-decoration: none;
+
+	font-size: 10px;
+
+	color:#005566;
+
+	font-weight: lighter;
+
+	padding: 2px 5px 5px 5px;
+
+}
+
+
+
+#MainMenu a:hover {
+
+	color:#FF99FF;
+
+	font-size: 12px;
+
+	background-color: #729fcf;
+
+	
+
+}
+/**
+*
+*=====================================Urugwiro design=========================================
+*/
+
+table {
+font-style:normal;
+font-family:"Times New Roman", Times, serif;
+font-size:16px;
+/*position:absolute;*/
+}
+
+#bannerContainer{
+position:absolute;
+	width:90%;
+	left:70px;
+	top:0px;
+	height:auto;
+	text-align:left;
+	background:white;
+}
+#container{
+
+
+top:160px;}
+
+#banner2{
+position:absolute; 
+top:0px;
+overflow:hidden; 
+ 
+width:50%; 
+height:200px;
+z-index:82;
+	background-color: #EEEfff;
+}
+
+#banner1{
+position:absolute; 
+overflow:hidden; 
+left:0px;
+ top:0px; 
+width:99.5%; height:142px;
+background-image: url(../images/banner_real.png);
+background-color: #00AAFF;
+}
+
+#contentDiv{
+	
+	top:-100px;
+	float: left;
+	height: 100%;
+	background-color: #EEEfff;
+	
+	width:100%;
+	border: 1px;
+	border-color: #c6c6c6;
+	border-style: solid;
+	overflow:auto;
+
+}
+
+#imigani{
+position:relative;
+	float: left;
+	height: 375px;
+	margin-left:6px;
+	width:45%;
+	border: 1px;
+	border-color: #c6c6c6;
+	border-style: solid;
+	overflow:auto;
+}
+
+#ibirari{
+position:relative;
+	float: right;
+	height: 375px;
+	
+	width:53%;
+	border: 1px;
+	border-color: #c6c6c6;
+	border-style: solid;
+	overflow:auto;
+}
+#leftContent{
+
+float:left;
+width:52.5%;
+height:100%;
+overflow:auto;
+
+
+}
+#leftContentTwo{
+display:inline;
+float:left;
+width:100%;
+height:550px;
+overflow:auto;
+background:#ffffff;
+
+}
+#centerContent{
+
+/*background:green;*/
+float:right;
+width:12.5%;
+height:100%
+
+}
+#rightContent{
+
+float:right;
+width:35%;
+height:100%
+
+}
+#sumuryMenusNewsContent{
+	
+	float: left;
+	height: 30%;
+	background-color: #Efffff;
+	
+	width:100%;
+	border: 1px;
+	border-color: #c6c6c6;
+	border-style: solid;
+
+
+}
+#sumuryMenusNewsContentComent{
+	
+	float: left;
+	height: 100%;
+	background-color: #Efffff;
+	
+	width:100%;
+	border: 1px;
+	border-color: #c6c6c6;
+	border-style: solid;
+
+
+}
+
+#displayComents{
+
+	height: 60%;
+	background-color: #Efffff;
+	
+	width:100%;
+	border: 1px;
+	border-color: #c6c6c6;
+	border-style: solid;
+}
+#containComentForm{
+height: 40%;
+	background-color: #EEEfff;
+	
+	width:100%;
+	border: 1px;
+	border-color: #c6c6c6;
+	border-style: solid;
+}
+#leftContentSumury{
+position:relative;
+float:left;
+width:50%;
+height:100%;
+background:yellow;
+
+}
+#centerContentSumury{
+position:relative;
+background:green;
+float:right;
+width:15%;
+height:100%
+
+}
+#rightContentSumury{
+position:relative;
+background:white;
+float:right;
+width:35%;
+height:100%
+
+}
+#sumuryMenusNewsContentTwo{
+	
+	float: left;
+	height: 30%;
+	background-color: #Efffff;
+	
+	width:100%;
+	border: 1px;
+	border-color: #c6c6c6;
+	border-style: solid;
+
+
+}
+
+
+#leftContentSumuryTwo{
+position:relative;
+float:left;
+width:70%;
+height:100%;
+overflow:auto;
+/*background:yellow;*/
+
+}
+#centerContentSumuryTwo{
+position:relative;
+background:#Efffff;
+float:left;
+width:30%;
+height:100%
+
+}
+
+#sumuryMenusNewsContentThree{
+	
+	float: left;
+	height: 20%;
+	background-color: #Efffff;
+	
+	width:100%;
+	border: 1px;
+	border-color: #c6c6c6;
+	border-style: solid;
+
+
+}
+
+#leftContentSumuryThree{
+position:relative;
+float:left;
+width:20%;
+height:100%;
+/*background:yellow;*/
+
+}
+#centerInnerContentSumuryThree{
+position:relative;
+background:#00000F;
+float:left;
+width:25%;
+height:100%
+
+}
+#centerContentSumuryThree{
+position:relative;
+background:green;
+float:right;
+width:25%;
+height:100%
+
+}
+#rightContentSumuryThree{
+position:relative;
+background:red;
+float:right;
+width:30%;
+height:100%
+
+}
+#sumuryMenusNewsContentFour{
+	
+	float: left;
+	height: 20%;
+	background-color: #Efffff;
+	
+	width:100%;
+	border: 1px;
+	border-color: #c6c6c6;
+	border-style: solid;
+
+
+}
+
+
+#leftContentSumuryFour{
+position:relative;
+float:left;
+width:25%;
+height:100%;
+background:yellow;
+
+}
+#centerContentSumuryFour{
+position:relative;
+background:green;
+float:right;
+width:25%;
+height:100%
+
+}
+#centerInnerContentSumuryFour{
+position:relative;
+background:#00000F;
+float:left;
+width:25%;
+height:100%
+}
+#rightContentSumuryFour{
+position:relative;
+background:red;
+float:right;
+width:25%;
+height:100%
+
+}
+
+
+#adverts{
+	
+	
+	height: 100%;
+	background-color: #Efffff;
+	
+	width:100%;
+	border: 1px;
+	border-color: #c6c6c6;
+	border-style: solid;
+
+
+}
+#archives{
+height: 100%;
+	background-color: #Efabff;
+	
+	width:100%;
+	border: 1px;
+	border-color: #c6c6c6;
+	border-style: solid;
+}
+
+
+
+#archiveElement1{
+position:relative;
+width:100%;
+float:left;
+height:10%;
+background:yellow;
+
+}
+
+#archiveElement2{
+position:relative;
+float:left;
+width:100%;
+height:60%;
+background:white;
+}
+#archiveElement3{
+position:relative;
+float:left;
+width:100%;
+height:10%;
+background:yellow;
+}
+
+#chatArea{
+position:relative;
+float:left;
+width:179px;
+height:280px;
+border: 1px;
+border-color: #c6c6c6;
+border-style: solid;
+background:yellow;
+overflow:auto;
+}
+#graph{
+position:relative;
+float:left;
+width:100%;
+height:61%;
+border: 1px;
+border-color: #c6c6c6;
+border-style: solid;
+background:green;
+overflow:auto;
+}
+#archiveElement4{
+position:relative;
+float:left;
+height:20%;
+width:100%;
+background:green;
+
+}
+div#hi {
+   
+   width:400px;
+   height:auto;
+   float:left;
+  }
+#listOfFuns{
+
+
+top:0px;
+overflow:auto; 
+ 
+width:97%; 
+
+border:1px;
+float:right;
+background-color: #EEEfff;
+}

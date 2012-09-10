@@ -11,13 +11,15 @@ User(jeff):
     email:          jeff@gmail.com
     address:        Kigali
     password:       secret
-    fullname:       Jeff    
+    fullname:       Jeff 
+    isAdmin:        true   
     
 User(paul):
     email:          paul@gmail.com
     address:        Kigali
     password:       secret
-    fullname:       Paul    
+    fullname:       Paul 
+    isAdmin:        false   
     
 Tag(play):
     name:           Play

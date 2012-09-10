@@ -19,8 +19,9 @@ public class Admin extends Controller {
     }
  
     public static void index() {
-        List<Post> posts = Post.find("author.email", Security.connected()).fetch();
-        render(posts);
+       // List<Post> posts = Post.find("author.email", Security.connected()).fetch();
+        //render(posts);
+    	render();
     }
     
 }
